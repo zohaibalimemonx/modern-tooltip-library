@@ -12,11 +12,11 @@ A lightweight, customizable tooltip solution that works on **WordPress, Shopify,
 
 ## 🚀 Usage
 ```html
-<button data-tooltip="Hello world!">Hover me</button>
-OR
-<button data-tooltip="Hello world!" data-tooltip-right="Hello world!" data-tooltip-position="right">Hover me</button>
-OR
-<button data-tooltip="Hello world!" data-tooltip-right="Hello world!" data-tooltip-position="right" data-tooltip-theme="info">Hover me</button>
+<button data-tooltip="Hello world!">Hover me 1</button>
+
+<button data-tooltip="Hello world!" data-tooltip-position="right">Hover me 2</button>
+
+<button data-tooltip="Hello world!" data-tooltip-position="right" data-tooltip-theme="info">Hover me 3</button>
 
 <script src="tooltip.js"></script>
 <script>
